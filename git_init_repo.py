@@ -1,13 +1,13 @@
 import os
 
 def git_command(git_path):
-    os.system('echo "# Automate-Git-Init" >> README.md')
-    os.system("git init")
-    os.system("git add README.md")
-    os.system("git add .")
-    os.system('git commit -m "first commit"')
-    os.system("git remote add origin %s" % git_path)
-    os.system("git push -u origin master")
+    git_terminal_command = ['echo "# Automate-Git-Init" >> README.md', 'git init',
+                            'git add README.md', 'git add .','git commit -m "first commit"',
+                            'git remote add origin %s' % git_path,
+                            'git push -u origin master']
+    
+    for comd in git_terminal_command:
+        os.system(comd)
     print("SUCCESS")
 
 # main
