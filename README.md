@@ -1,26 +1,21 @@
-# Automate-Git-Init
+# Automate Git Init
 
-One Paragraph of project description goes here
+This project is build to automate git initialization. 
 
-Getting Started
+## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Prerequisites
 
-Prerequisites
+To run this program eficiently what things you need to create a new repository in the Github and copy the link of the repository.
 
-What things you need to install the software and how to install them
+### Built With
 
-Built With
-Python 3.7
+For e.g.
+
+Python 3.7 or lower
 Visual Studio Code
 
-Authors
+### Authors
 
 Akash Chhetri
-See also the list of contributors who participated in this project.
-
-Acknowledgments
-
-Hat tip to anyone whose code was used
-Inspiration
-etc
+Data Scientist
