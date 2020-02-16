@@ -17,4 +17,4 @@ def dependant_application(d_app):
             time.sleep(0.8)
             print("Installing now.. ")
             time.sleep(1.5)
-            os.system("brew install" + dependant)
+            os.system("brew install " + dependant)
